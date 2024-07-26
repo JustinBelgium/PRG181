@@ -1,0 +1,59 @@
+
+                                                                 JUSTIN STEYN, PROJECT 1, PROGRAMMING 181 
+
+
+Start
+Declare exit, Arr_Id[], found, results ,price, Arr_price[], total, searchproduct, searchprice, Date 
+Initialize Arr_product[5]
+Initialize found == false 
+initialize price = 0 
+initialize total = 0 
+
+While (exit == false)
+{
+Display "Menu:" 
+Display "1. Process purchase."
+Display "2. Exit."
+
+Read option
+                                                // Taken That products are already registerd 
+Switch(option) 
+{
+Case 1:
+Dispaly "Enter Date of purchase" 
+Display "Enter item ID"
+read ID
+read Date 
+For(i = 0; i < Arr_ID.length; i ++)         // To find the product 
+{
+if (Arr_ID[i] == searchproduct)
+{
+found = true 
+result  = Arr_ID[i] 
+}
+
+if (found = true  )
+{                                                       // Taken that prices are already registerd on the product itself 
+for (i = 0; I< Arr_price.length; i ++)
+{
+if (Arr_price[i] = searchprice)                // To find the price of the product 
+{
+found = true 
+price = Arr_price[i]
+break;
+}
+print "Date:" + Date 
+Print result + "R"price                     
+Print          "R"total 
+}
+else 
+{
+print "Product not found " 
+}
+total = total + price 
+}
+Case 2:
+exit = true 
+}
+ 
+ 
